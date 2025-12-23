@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Testing Standards</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="step done">Product Details</div>
+            <div class="step done">Technical Specification Documents</div>
+            <div class="step done">Testing Requirements</div>
+            <div class="step active">Testing Standards</div>
+            <div class="step">Lab Selection and Review</div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+            <section class="card">
+                <h3>Testing Standards</h3>
+                <hr>
+
+                <!-- EV Charging related standards -->
+                <div class="checkbox-group">
+
+                    <label>
+                        <input type="checkbox" value="IEC 61851 (Electric vehicle conductive charging system)">
+                        IEC 61851 – EV conductive charging system
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="IEC 62196 (Plugs, socket-outlets, vehicle connectors)">
+                        IEC 62196 – Plugs, sockets & connectors
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="IEC 61000 (EMC standards)">
+                        IEC 61000 – EMC standards
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="IS 17017 (Indian EV charging standard)">
+                        IS 17017 – Indian EV charging standard
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="IEC 60529 (IP rating)">
+                        IEC 60529 – IP rating
+                    </label>
+                </div>
+
+                <div class="card-footer space-between">
+                    <button class="secondary" onclick="goBack()">BACK</button>
+                    <button onclick="saveStandards()">NEXT</button>
+                </div>
+            </section>
+        </main>
+
+    </div>
+
+    <script src="js/standards.js"></script>
+</body>
+
+</html>

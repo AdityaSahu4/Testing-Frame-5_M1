@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Testing Requirements</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="step done">Product Details</div>
+            <div class="step done">Technical Specification Documents</div>
+            <div class="step active">Testing Requirements</div>
+            <div class="step">Testing Standards</div>
+            <div class="step">Lab Selection and Review</div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+            <section class="card">
+                <h3>Testing Requirements</h3>
+                <hr>
+                <div class="checkbox-group">
+                    <div>
+                        <label>
+                            <input type="checkbox" value="EMI / EMC Testing">
+                            EMI / EMC Testing
+                        </label>
+
+
+
+                        <label>
+                            <input type="checkbox" value="Electrical Safety Testing">
+                            Electrical Safety Testing
+                        </label>
+
+
+
+                        <label>
+                            <input type="checkbox" value="Environmental Testing">
+                            Environmental Testing
+                        </label>
+
+
+
+                        <label>
+                            <input type="checkbox" value="Ingress Protection (IP) Testing">
+                            Ingress Protection (IP) Testing
+                        </label>
+
+
+
+                        <label>
+                            <input type="checkbox" value="Performance Testing">
+                            Performance Testing
+                        </label>
+                    </div>
+
+                    <div class="card-footer space-between">
+                        <button class="secondary" onclick="goBack()">BACK</button>
+                        <button onclick="saveRequirements()">NEXT</button>
+                    </div>
+            </section>
+        </main>
+
+    </div>
+
+    <script src="js/requirements.js"></script>
+</body>
+
+</html>

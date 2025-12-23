@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Technical Specification Documents</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="step done">Product Details</div>
+            <div class="step active">Technical Specification Documents</div>
+            <div class="step">Testing Requirements</div>
+            <div class="step">Testing Standards</div>
+            <div class="step">Lab Selection and Review</div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+            <section class="card">
+                <h3>Technical Specification Documents</h3>
+                <hr>
+
+                <label>Upload Technical Documents</label>
+                <input type="file" id="docs" multiple>
+
+                <div style="margin-top: 15px;">
+                    <ul id="fileList"></ul>
+                </div>
+
+                <div class="card-footer space-between">
+                    <button class="secondary" onclick="goBack()">BACK</button>
+                    <button onclick="saveDocs()">NEXT</button>
+                </div>
+            </section>
+        </main>
+
+    </div>
+
+    <script src="js/tsd.js"></script>
+</body>
+
+</html>
